@@ -5,8 +5,27 @@ If you find this useful, we encourage you to [fork it](https://github.com/bitvic
 
 ## Table of contents
 
-1. [Syntax and Formatting](#syntax-and-formatting)
-* 
+1. [File naming](#file-naming)
+2. [Syntax and Formatting](#syntax-and-formatting)
+3. 
+
+## File naming
+The names that we give to a file is important as it should describe it's contents. We are using lowercase, dashed splitted letters when naming a file. We suggest not to combine letters as the filename will be verry hard to read and understand.
+
+We are using this composition rule: ``` {file descriptor}.[{file type}].js ```
+
+##### File type table
+
+File type         | Suffix    | Example
+------------------|-----------|---------
+Generic file      |           | `` generic-file.js ``
+Bootstrap file    | index     | `` index.js ``
+Simple Class file | class     | `` my-first-car.class.js ``
+Abstract Class    | abstract  | `` service.abstract.js ``
+Interface file    | interface | `` animal.interface.js ``
+Module file       | mod       | `` bitvice-osi.mod.js ``
+
+
 
 ## Syntax and Formatting
 
