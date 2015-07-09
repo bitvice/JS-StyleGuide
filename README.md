@@ -19,3 +19,18 @@ One of the simplest forms of a styleguide is a set of rules regarding syntax and
 * Use `UTF-8` as the source file encoding;
 * Delete trailing whitespace;
 * Each file ends with a blank newline.
+
+##### Syntax table
+
+Type             | Convention                                   | Example
+-----------------|----------------------------------------------|-----------
+ClassName        | PascalCase - with an initial capital letter  | ``` MightyBalrog, MagicWeapon ```
+Public method    | CamelCase - with an initial lowercase letter | ``` castDimensionalDoorway, rollForInitiative ```
+Public variable  | CamelCase - with an initial lowercase letter | ``` materialComponents, hasTrackingAbilities ```
+Private method   | Underscore followed by a camelCase phrase    | ``` _getHealth ```
+Private variable | Underscore followed by a camelCase phrase    | ``` _backstabAbility  ```
+Method arguments | CamelCase - with an initial lowercase letter | ``` halfOrcArmy ```
+Local variables  | CamelCase - with an initial lowercase letter | ``` isHumanoid, levelCount ```
+jQuery objects   | Dollar symbol followed by a camelCase phrase | ``` $mainMenu ```
+Constant         | Uppercase with underscores                   | ``` CLERIC_PLAYER, GAME_MASTER  ```
+
