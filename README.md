@@ -32,6 +32,9 @@ Module file       | mod       | `` bitvice-osi.mod.js ``
 One of the simplest forms of a styleguide is a set of rules regarding syntax and formatting. Having a standard way of writing code means that code will always look and feel familiar to all members of the team.
 
 * Use `4` spaces indents - use spaces over tabs because tabs aren't always displayed the same size on all devices;
+* Use an empty line after an open block bracket ``{``;
+* Don't leave any empty row before close block bracket ``}``;
+* Use 3 empty lines space between blocks of code with different meanings;
 * Never mix spaces with tabs;
 * Use 80 character wide columns;
 * Meaningful use of whitespace helps reading code much faster;
